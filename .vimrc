@@ -125,7 +125,7 @@ set number
 " Enable syntax highlighting
 syntax enable
 
-colorscheme eva
+colorscheme monokai
 set background=dark
 
 " Set extra options when running in GUI mode
