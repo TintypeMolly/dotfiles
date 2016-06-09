@@ -40,3 +40,9 @@
 #######################
 # [credential]
 # 	helper = cache --timeout=3600
+
+#########################
+# Windows Configuration #
+#########################
+# [credential]
+# 	helper = wincred
