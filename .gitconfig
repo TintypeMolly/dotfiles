@@ -1,0 +1,42 @@
+[user]
+	name = Oh Jinkyun
+	email = tintypemolly@gmail.com
+	signingkey = 80D33DDA
+[core]
+	excludesfile = ~/.gitignore_global
+[push]
+	default = simple
+[commit]
+	gpgsign = true
+[alias]
+    # View abbreviated SHA, description, and history graph of the latest 20 commits
+    l = log --pretty=oneline -n 20 --graph --abbrev-commit
+
+    # View the current working tree status using the short format
+    s = status -s
+
+    # Show verbose output about tags, branches or remotes
+    tags = tag -l
+    branches = branch -a
+    remotes = remote -v
+
+    # Amend the currently staged files to the latest commit
+    amend = commit --amend --reuse-message=HEAD
+
+######################
+# OS X Configuration #
+######################
+# [difftool "sourcetree"]
+# 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+# 	path = 
+# [mergetool "sourcetree"]
+# 	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.1/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+# 	trustExitCode = true
+# [credential]
+# 	helper = osxkeychain
+
+#######################
+# Linux Configuration #
+#######################
+# [credential]
+# 	helper = cache --timeout=3600
