@@ -82,11 +82,9 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 if [ `uname` == "Linux" ]; then
-    alias ls='ls -alF --color=auto'
     alias ll='ls -alF --color=auto'
     alias l='ls -CF --color=auto'
 elif [ `uname` == "Darwin" ]; then
-    alias ls='ls -alFG'
     alias ll='ls -alFG'
     alias l='ls -CFG'
 fi
