@@ -81,12 +81,13 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-if [ `uname` == "Linux" ] || [ `uname` == "MINGW64_NT-10.0" ] ; then
-    alias ll='ls -alF --color=auto'
-    alias l='ls -aCF --color=auto'
-elif [ `uname` == "Darwin" ]; then
+if [ `uname` == "Darwin" ]
+then
     alias ll='ls -alFG'
     alias l='ls -aCFG'
+else
+    alias ll='ls -alF --color=auto'
+    alias l='ls -aCF --color=auto'
 fi
 
 # Add an "alert" alias for long running commands.  Use like so:
