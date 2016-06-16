@@ -4,6 +4,5 @@ TARGETS=".bashrc .gitconfig .gitignore_global .vim/ .vimrc"
 
 for f in $TARGETS
 do
-cp -r $SOURCE_DIR/$f $HOME
-echo "Copied $f to \$HOME"
+cp -rv $SOURCE_DIR/$f $HOME
 done
