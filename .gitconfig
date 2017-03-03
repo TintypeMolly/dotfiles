@@ -1,7 +1,7 @@
 [user]
 	name = Oh Jinkyun
 	email = tintypemolly@gmail.com
-	signingkey = 80D33DDA
+#	signingkey = ABCDEF
 [core]
 	excludesfile = ~/.gitignore_global
 [push]
