@@ -1,9 +1,7 @@
 #!/bin/bash
 
-_common_update() {
+common_update() {
     npm upgrade -g npm
-    PYENV_VERSION=3.5.1 pip install -U pip setuptools virtualenv
-    PYENV_VERSION=2.7.11 pip install -U pip setuptools virtualenv
 }
 
 if [ `uname` == "Darwin" ]
@@ -12,7 +10,7 @@ then
     brew update
     brew upgrade
     brew cleanup
-    _common_update
+    common_update
 elif [ `uname` == "Linux" ]
 then
     if [ `whoami` != "root" ]
@@ -25,9 +23,11 @@ then
         apt-get upgrade -y
         apt-get dist-upgrade -y
         apt-get autoremove
-        _common_update
+        common_update
         echo "Reboot is recommended after update script"
         echo "try 'sudo reboot'"
     fi
+else
+    echo "This machine is neither Darwin nor Linux."
+    exit 1
 fi
-
