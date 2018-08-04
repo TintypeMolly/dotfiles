@@ -7,10 +7,14 @@ then
     exit 1
 fi
 
+source $SOURCE_DIR/update_submodules.zsh
+
 DOTFILE_LIST=('.gitconfig' '.gitignore_global' '.gitmodules' '.oh-my-zsh' '.vim' '.vimrc' '.zlogin' '.zsh-custom' '.zshenv' '.zshrc')
 
 for DOTFILE in $DOTFILE_LIST
 do
 cp -rv $SOURCE_DIR/$DOTFILE $TARGET_DIR
 done
+
+git status
 
