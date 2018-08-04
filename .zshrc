@@ -1,7 +1,7 @@
-export ZSH=${0:a:h}/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="robbyrussell"
-ZSH_CUSTOM=${0:a:h}/.zsh-custom
+ZSH_CUSTOM=$HOME/.zsh-custom
 
 ENABLE_CORRECTION="true"
 
