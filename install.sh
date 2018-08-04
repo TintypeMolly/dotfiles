@@ -1,6 +1,6 @@
 #!/bin/bash
 SOURCE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-TARGETS=".bashrc .gitconfig .gitignore_global .vim .vimrc"
+TARGETS=".git .gitconfig .gitignore_global .gitmodules .oh-my-zsh .vim .vimrc .zlogin .zshenv .zshrc"
 
 for f in $TARGETS
 do

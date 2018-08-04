@@ -20,20 +20,3 @@
     # Amend the currently staged files to the latest commit
     amend = commit --amend --reuse-message=HEAD
 
-######################
-# OS X Configuration #
-######################
-# [credential]
-# 	helper = osxkeychain
-
-#######################
-# Linux Configuration #
-#######################
-# [credential]
-# 	helper = cache --timeout=3600
-
-#########################
-# Windows Configuration #
-#########################
-# [credential]
-# 	helper = wincred
