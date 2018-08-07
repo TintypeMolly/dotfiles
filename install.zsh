@@ -13,7 +13,7 @@ DOTFILE_LIST=('.gitconfig' '.gitignore_global' '.oh-my-zsh' '.vim' '.vimrc' '.zl
 
 for DOTFILE in $DOTFILE_LIST
 do
-cp -rv $SOURCE_DIR/$DOTFILE $TARGET_DIR
+ln -sfv $SOURCE_DIR/$DOTFILE $TARGET_DIR
 done
 
 git status
