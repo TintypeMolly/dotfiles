@@ -1,0 +1,89 @@
+# gnome
+baobab
+evince
+file-roller
+gdm
+gnome-backgrounds
+gnome-boxes
+gnome-calculator
+gnome-calendar
+gnome-characters
+gnome-clocks
+gnome-color-manager
+gnome-control-center
+gnome-dictionary
+gnome-disk-utility
+gnome-documents
+gnome-font-viewer
+gnome-keyring
+gnome-logs
+gnome-maps
+gnome-menus
+gnome-music
+gnome-photos
+gnome-remote-desktop
+gnome-screenshot
+gnome-session
+gnome-settings-daemon
+gnome-shell
+gnome-shell-extensions
+gnome-system-monitor
+gnome-terminal
+gnome-themes-extra
+gnome-todo
+gnome-video-effects
+gvfs
+gvfs-afc
+gvfs-goa
+gvfs-google
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mousetweaks
+mutter
+nautilus
+networkmanager
+sushi
+tracker
+tracker-miners
+vino
+xdg-user-dirs-gtk
+
+# gnome-extra
+dconf-editor
+gnome-nettool
+gnome-sound-recorder
+
+# important
+intel-ucode
+
+# programmer stuffs
+docker-compose
+vim
+git
+nodejs
+npm
+zsh
+
+# ime
+ibus-hangul
+ibus-mozc
+
+# fonts
+adobe-source-han-sans-otc-fonts
+adobe-source-han-serif-otc-fonts
+noto-fonts
+noto-fonts-emoji
+ttf-d2coding
+
+# utilities
+qbittorrent
+vlc
+mcomix
+
+# AUR stuffs
+yay
+google-chrome
+visual-studio-code-bin
+
