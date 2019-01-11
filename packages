@@ -65,25 +65,24 @@ git
 nodejs
 npm
 zsh
+visual-studio-code-bin # AUR
 
 # ime
 ibus-hangul
-ibus-mozc
+ibus-mozc # AUR
 
 # fonts
-adobe-source-han-sans-otc-fonts
-adobe-source-han-serif-otc-fonts
 noto-fonts
+noto-fonts-cjk
 noto-fonts-emoji
-ttf-d2coding
+noto-fonts-extra
+ttf-dejavu
+ttf-liberation
+ttf-d2coding # AUR
 
 # utilities
+yay # AUR
+google-chrome # AUR
 qbittorrent
 vlc
 mcomix
-
-# AUR stuffs
-yay
-google-chrome
-visual-studio-code-bin
-
