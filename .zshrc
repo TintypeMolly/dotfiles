@@ -5,7 +5,8 @@ ZSH_CUSTOM=$HOME/.zsh-custom
 
 plugins=(
   git
+  rvm
+  nvm
 )
 
 source $ZSH/oh-my-zsh.sh
-
