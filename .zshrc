@@ -7,6 +7,7 @@ plugins=(
   git
   rvm
   nvm
+  pyenv
 )
 
 source $ZSH/oh-my-zsh.sh
