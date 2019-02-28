@@ -5,7 +5,6 @@ ZSH_CUSTOM=$HOME/.zsh-custom
 
 plugins=(
   git
-  rvm
   nvm
   pyenv
 )
