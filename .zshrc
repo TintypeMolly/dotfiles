@@ -8,6 +8,7 @@ plugins=(
   nvm
   pyenv
   rbenv
+  rust
 )
 
 source $ZSH/oh-my-zsh.sh
