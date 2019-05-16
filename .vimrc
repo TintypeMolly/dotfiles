@@ -403,3 +403,7 @@ let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html Prettier
 let g:prettier#config#single_quote = 'true'
 let g:prettier#config#trailing_comma = 'all'
+
+" Autopep8 plugin settings
+let g:autopep8_disable_show_diff = 1
+let g:autopep8_on_save = 1
