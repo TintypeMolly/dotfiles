@@ -397,3 +397,9 @@ function! <SID>BufcloseCloseIt()
 endfunction
 
 execute pathogen#infect()
+
+" Prettier plugin settings
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html Prettier
+let g:prettier#config#single_quote = 'true'
+let g:prettier#config#trailing_comma = 'all'
