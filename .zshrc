@@ -7,7 +7,6 @@ plugins=(
   git
   nvm
   pyenv
-  rbenv
   rust
 )
 
