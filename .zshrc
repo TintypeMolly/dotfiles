@@ -8,6 +8,7 @@ plugins=(
   nvm
   pyenv
   rust
+  docker
 )
 
 source $ZSH/oh-my-zsh.sh
